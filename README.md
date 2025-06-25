@@ -2,6 +2,11 @@
 
 This project sets up an AWS Virtual Private Cloud with a secure production-ready architecture using public and private subnets.
 
+
+## 📸 Architecture Diagram
+
+![image](https://github.com/user-attachments/assets/c8e2165f-b5c6-4865-b3ff-b3d1adaacd89)
+
 ## 🌐 Components
 - VPC with CIDR block
 - Public & Private Subnets
@@ -19,9 +24,6 @@ This project sets up an AWS Virtual Private Cloud with a secure production-ready
 - Only Bastion host exposed via public IP
 - Private subnets used for application/backend services
 - Fine-grained security group rules
-
-## 📸 Architecture Diagram (optional)
-Include a PNG or draw.io image here.
 
 ## 🚀 Usage
 1. Launch VPC and subnets
