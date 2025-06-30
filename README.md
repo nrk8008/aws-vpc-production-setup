@@ -60,14 +60,14 @@ Use the following procedure to create a VPC with a public subnet and a private s
 
 8. Choose Create VPC.
 
-
-
 ## 🔐 Security Best Practices
 - Only Bastion host exposed via public IP
 - Private subnets used for application/backend services
 - Fine-grained security group rules
 
-## 🚀 Usage
-1. Launch VPC and subnets
-2. Deploy bastion host
-3. SSH into private instances via bastion
+## 🚀 How to Use This Setup
+- Launch the VPC using the AWS console or Terraform
+- Deploy a bastion host in the public subnet
+- SSH into private EC2 instances via the bastion
+- Use NAT Gateway for internet access from private instances (e.g., software updates)
+
